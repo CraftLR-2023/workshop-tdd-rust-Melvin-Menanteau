@@ -1,0 +1,15 @@
+name: GitHub Classroom Workflow
+
+on: [push]
+
+jobs:
+  build:
+    name: Autograding
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - run : rustup target add thumbv7em-none-eabihf
+    - uses: actions/checkout@v3
+    - name: Build
+      run: cargo build --verbose
+    - uses: education/autograding@v1

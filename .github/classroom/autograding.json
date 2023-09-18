@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test",
+      "setup": "",
+      "run": "cargo test&&cargo test -p exercice1&&cargo test -p exercice2&&cargo test -p exercice3&&cargo test -p exercice4&&cargo test -p exercice5",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 1
+    }
+  ]
+}

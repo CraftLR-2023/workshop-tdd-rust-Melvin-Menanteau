@@ -1,0 +1,18 @@
+[package]
+name = "workshop-tdd-rust"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+
+members = [
+    "exercice1",
+    "exercice2",
+    "exercice3",
+    "exercice4",
+    "exercice5",
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
